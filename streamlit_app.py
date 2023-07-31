@@ -10,9 +10,9 @@ streamlit.text('🥗 - Kale, Spinach and Smoothie')
 streamlit.text('🐔 - Hard-boiled free range eggs')
 streamlit.text('🥑🍞 - Avocado toast')
 
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 my_fruit_list = my_fruit_list.set_index('Fruit')
 
